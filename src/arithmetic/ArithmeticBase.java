@@ -16,8 +16,9 @@ import java.util.Scanner;
  */
 public class ArithmeticBase 
 {
-    public enum operation { "PLUS", "MINUS","MULTIPY", "DIVIDE"};
- public double x,y;
+    public enum Operation {"PLUS", "MINUS","MULTIPY", "DIVIDE"};
+ /*
+public double x,y;
  
     double calculate(double x, double y) 
         {
@@ -36,7 +37,7 @@ public class ArithmeticBase
                 return x / y;
             default:
                 throw new AssertionError("Unknown operations " + this);
-        }
+        }*/
     }
    
 }
