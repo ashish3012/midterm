@@ -11,11 +11,14 @@ import java.util.Scanner;
  * from user and execute the arithmetic operation
  * change the code to use enum instead String and add object oriented principles satisfy as comment in the code
  * @author sivagamasrinivasan
+ * Modifier Ashish Patel
  * date 02/19
  */
 public class ArithmeticBase 
 {
+    public enum operation { "PLUS", "MINUS","MULTIPY", "DIVIDE"};
  public double x,y;
+ 
     double calculate(double x, double y) 
         {
         Scanner sc =new Scanner(System.in);
