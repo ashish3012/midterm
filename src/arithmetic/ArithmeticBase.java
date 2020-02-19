@@ -19,15 +19,12 @@ public class ArithmeticBase
     public enum Operation {"PLUS", "MINUS","MULTIPY", "DIVIDE"};
     private final Operation op;
 
-    public ArithmeticBase( Operation op){
-
-        op =op;
+    public ArithmeticBase(){
+     
+       op =op;
 }
-
-
-    
-
-
-    
+    public double calculate( double x, double y){
+    return x+y;
+}
    
 }

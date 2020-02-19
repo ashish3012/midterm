@@ -6,6 +6,7 @@
 package arithmetic;
 
 
+import static java.util.Collections.list;
 import java.util.Scanner;
 
 /** This class calls the method to perform 
@@ -23,19 +24,24 @@ public class Arithmetic
      */
     public static void main(String[] args) 
     {
+        
+        private final int num =0;
         ArithmeticBase list[] = new ArithmeticBase[5];
         
         ArithmeticBase a = new ArithmeticBase();
         
         for( ArithmeticBase.Operation o : ArithmeticBase.Operation.values())
+   
         {
-            
+                    list[num] = calculate(1.0,2.0);
+                        return null;
         }
+        
+        System.out.println(a.calculate());
             
         
     }
     
-
 
 
 
