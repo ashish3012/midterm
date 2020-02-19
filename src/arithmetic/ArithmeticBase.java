@@ -17,27 +17,17 @@ import java.util.Scanner;
 public class ArithmeticBase 
 {
     public enum Operation {"PLUS", "MINUS","MULTIPY", "DIVIDE"};
- /*
-public double x,y;
- 
-    double calculate(double x, double y) 
-        {
-        Scanner sc =new Scanner(System.in);
-        System.out.println("enter String");
-        String s= sc.next();
-        switch (s.toUpperCase()) 
-        {
-            case "PLUS":
-                return x + y;
-            case "MINUS":
-                return x - y;
-            case "TIMES":
-                return x * y;
-            case "DIVIDE":
-                return x / y;
-            default:
-                throw new AssertionError("Unknown operations " + this);
-        }*/
-    }
+    private final Operation op;
+
+    public ArithmeticBase( Operation op){
+
+        op =op;
+}
+
+
+    
+
+
+    
    
 }

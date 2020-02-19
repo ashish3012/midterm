@@ -23,14 +23,18 @@ public class Arithmetic
      */
     public static void main(String[] args) 
     {
+        ArithmeticBase list[] = new ArithmeticBase[5];
         
+        ArithmeticBase a = new ArithmeticBase();
         
-       /*
-        ArithmeticBase r= new ArithmeticBase();
-        double result = r.calculate(1,2);
-        System.out.println("result :" +result); 
-        */
+        for( ArithmeticBase.Operation o : ArithmeticBase.Operation.values())
+        {
+            
+        }
+            
+        
     }
+    
 
 
 
